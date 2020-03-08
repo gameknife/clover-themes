@@ -3,20 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>Grason Chan</string>
+	<string>GameKnife</string>
 	<key>Description</key>
-	<string>Idealism</string>
+	<string>Studio Banner</string>
 	<key>Theme</key>
 	<dict>
 		<key>Background</key>
 		<dict>
 			<key>Dark</key>
-			<false/>
+			<true/>
 			<key>Path</key>
 			<string>bg.png</string>
+			<key>Type</key>
+			<string>Scale</string>
 			<key>Sharp</key>
-			<string>0x0</string>
+			<string>0x80</string>
 		</dict>
+		<key>Banner</key>
+		<string>logo-trans.png</string>
 		<key>Badges</key>
 		<dict>
 			<key>Inline</key>
@@ -31,7 +35,7 @@
 		<key>Components</key>
 		<dict>
 			<key>Banner</key>
-			<false/>
+			<true/>
 			<key>Functions</key>
 			<true/>
 			<key>Help</key>
